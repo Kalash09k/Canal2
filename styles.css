@@ -1,13 +1,144 @@
-header {
-    background-color: lightblue;
-    display: flex;
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 }
 
-.navbar {
-    justify-content: space-between;
+header {
     display: flex;
+    justify-content: space-between;
+    padding: .5rem 2 rem;
+    align-items: center;
+    font-size: 1.5rem;
 }
 
 .li {
+    display: flex;
+    width: 647px;
+    height: 35px;
+    top: 37px;
+    left: 431px;
+    gap: 3rem;
+    opacity: 0px;
+    list-style: none;
+}
+
+.actu {
+    color: #269b4b;
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #269b4b;
+    padding: .5rem;
+    font-weight: 600;
+    border-radius: 27px;
+    width: 203px;
+    height: 69px;
+    left: 1244px;
+    top: 20px;
+}
+
+.button:hover {
+    transform: translateY(.5rem);
+    transition-duration: 800ms;
+}
+
+.logo {
+    width: 203px;
+    height: 69px;
+    top: 20px;
+    left: 1244px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.li li:hover {
+    text-decoration: underline;
+    text-underline-offset: .9rem;
+    transform: translateY(.5rem);
+    transition-duration: 800ms;
+}
+
+.head {
+    display: flex;
+}
+
+/* 
+.parent {
+    justify-content: space-evenly;
+    gap: 5rem;
+    padding: 3rem;
+} */
+
+.side {
+    border-left: 1rem solid #269b4b;
+    height: 30px;
+}
+
+.ngannou {
+    display: flex;
+    gap: 5rem;
+    padding: 3rem;
+}
+
+.images-ngannou {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: -3rem;
+}
+
+.block {
+    width: 13px;
+    height: 50px;
+    top: 151px;
+    left: 970px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #618264;
+}
+
+.img1 {
+    display: flex;
+    gap: 60px;
+}
+
+.soustitre {
+    font-family: Inter;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 15.73px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #618264;
+}
+
+.actualite {
+    display: flex;
+    justify-content: space-evenly
+}
+
+h1 {
+    font-family: IBM Plex Sans Hebrew;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62.4px;
+    text-underline-position: from-font;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.martinez {
+    text-align: center;
+    height: 750px;
+    margin-top: 7rem;
+}
+
+.Retrouvez {
+    margin-top: -5rem;
+}
+
+.matin {
     display: flex;
 }
